@@ -13,7 +13,7 @@ import qualified Test.QuickCheck as Q
 import qualified Hedgehog.Corpus as Corpus
 
 prop_test =
-  forAll (Q.elements Corpus.agile) $ \name ->
+  Q.forAll (Q.elements Corpus.agile) $ \name ->
     ...
 
 ```
