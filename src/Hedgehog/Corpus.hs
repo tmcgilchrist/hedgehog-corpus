@@ -24,6 +24,7 @@ module Hedgehog.Corpus (
 
 import           Data.String (IsString(..))
 
+-- | Collection of cooking related strings
 cooking :: IsString a => [a]
 cooking = [
     "salted"
@@ -33,6 +34,7 @@ cooking = [
   , "sauteed"
   ]
 
+-- | Collection of Muppets
 muppets :: IsString a => [a]
 muppets = [
     "kermit"
@@ -45,6 +47,7 @@ muppets = [
   , "animal"
   ]
 
+-- | Collection of Southpark characters
 southpark :: IsString a => [a]
 southpark = [
     "kyle"
@@ -56,6 +59,7 @@ southpark = [
   , "garrison"
   ]
 
+-- | Collection of Simpsons characters
 simpsons :: IsString a => [a]
 simpsons = [
     "homer"
@@ -68,6 +72,7 @@ simpsons = [
   , "barney"
   ]
 
+-- | Collection of viruses
 viruses :: IsString a => [a]
 viruses = [
     "rotavirus"
@@ -83,6 +88,7 @@ viruses = [
   , "monkeypox"
   ]
 
+-- | Collection of colours
 colours :: IsString a => [a]
 colours = [
     "red"
@@ -96,6 +102,7 @@ colours = [
   , "pink"
   ]
 
+-- | Collection of weather conditions
 weather :: IsString a => [a]
 weather = [
     "dry"
@@ -108,6 +115,7 @@ weather = [
   , "freezing"
   ]
 
+-- | Collection of bodies of water
 waters :: IsString a => [a]
 waters = [
     "basin"
@@ -136,6 +144,7 @@ waters = [
   , "wetland"
   ]
 
+-- | Collection of types of boats
 boats :: IsString a => [a]
 boats = [
     "barge"
@@ -160,6 +169,7 @@ boats = [
   , "yacht"
   ]
 
+-- | Collection of animals
 animals :: IsString a => [a]
 animals = [
     "alligator"
@@ -216,6 +226,7 @@ animals = [
   , "zebra"
   ]
 
+-- | Collection of vegetables
 vegetables :: IsString a => [a]
 vegetables = [
     "asparagus"
@@ -240,6 +251,7 @@ vegetables = [
   , "turnip"
   ]
 
+-- | Collection of fruits
 fruits :: IsString a => [a]
 fruits = [
     "apple"
@@ -261,28 +273,30 @@ fruits = [
   , "watermelon"
   ]
 
+-- | Collection of cats
 cats :: IsString a => [a]
 cats = [
-    "american_curl"
-  , "american_shorthair"
+    "american curl"
+  , "american shorthair"
   , "angora"
-  , "british_shorthair"
+  , "british shorthair"
   , "bobtail"
-  , "exotic_shorthair"
+  , "exotic shorthair"
   , "himalayan"
-  , "maine_coon"
+  , "maine coon"
   , "munchkin"
-  , "norwegian_forest"
+  , "norwegian forest"
   , "persian"
   , "ragamuffin"
   , "ragdoll"
-  , "russian_blue"
-  , "scottish_fold"
+  , "russian blue"
+  , "scottish fold"
   , "siamese"
   , "siberian"
   , "tabby"
   ]
 
+-- | Collection of NHL teams
 nhl :: IsString a => [a]
 nhl = [
     "Anaheim Ducks"
@@ -318,6 +332,7 @@ nhl = [
   , "Winnipeg Jets"
   ]
 
+-- | Collection of NFL teams
 nfl :: IsString a => [a]
 nfl = [
     "Arizona Cardinals"
@@ -354,13 +369,16 @@ nfl = [
   , "Washington Redskins"
   ]
 
+-- | Collection of agiles
 agile :: IsString a => [a]
 agile = [
     "agile"
   , "backlog"
   , "burn-down chart"
+  , "decisioning"
   , "epic"
   , "extreme programming"
+  , "governance"
   , "information radiator"
   , "kanban"
   , "lean"
