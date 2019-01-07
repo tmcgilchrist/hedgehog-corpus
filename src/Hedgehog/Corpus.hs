@@ -270,6 +270,7 @@ fruits = [
   , "plum"
   , "strawberry"
   , "tangerine"
+  , "tomato"
   , "watermelon"
   ]
 
