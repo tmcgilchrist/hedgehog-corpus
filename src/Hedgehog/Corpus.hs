@@ -9,6 +9,7 @@ module Hedgehog.Corpus (
   , cooking
   , fruits
   , glass
+  , metasyntactic
   , muppets
   , nfl
   , nhl
@@ -395,6 +396,25 @@ agile = [
   , "user story"
   , "velocity"
   , "vertical slice"
+  ]
+
+-- | Collection of <https://en.wikipedia.org/wiki/Metasyntactic_variable metasyntactic variables>.
+metasyntactic :: IsString a => [a]
+metasyntactic = [
+    "foo"
+  , "bar"
+  , "baz"
+  , "qux"
+  , "quux"
+  , "quuz"
+  , "corge"
+  , "grault"
+  , "garply"
+  , "waldo"
+  , "fred"
+  , "plugh"
+  , "xyzzy"
+  , "thud"
   ]
 
 -- | How to say "I can eat glass, and it doesn't hurt me." in a few different
