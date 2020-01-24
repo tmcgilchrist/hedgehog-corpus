@@ -1,10 +1,10 @@
 name:                  hedgehog-corpus
-version:               0.1.0
+version:               0.2.0
 license:               BSD3
 license-file:          LICENSE
 author:                Tim McGilchrist <timmcgil@gmail.com>
 maintainer:            Tim McGilchrist <timmcgil@gmail.com>
-copyright:             (c) 2017 Tim McGilchrist 
+copyright:             (c) 2017-2020 Tim McGilchrist 
 synopsis:              hedgehog-corpus
 category:              Testing
 cabal-version:         >= 1.8
